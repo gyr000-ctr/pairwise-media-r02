@@ -3,6 +3,7 @@ import math
 import pytest
 
 import curveclosest
+from curveclosest import Closest
 
 def _raises(fn, exc=ValueError):
     try:
